@@ -1,0 +1,1 @@
+generator-npm-package
