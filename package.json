@@ -1,6 +1,6 @@
 {
     "name": "@teamhive/generator-init-npm-package",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Yeoman generator for NPM packages",
     "homepage": "https://github.com/TeamHive/generator-init-npm-package",
     "private": false,
