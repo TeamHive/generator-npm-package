@@ -1,0 +1,34 @@
+{
+    "name": "<%= moduleName %>",
+    "version": "0.0.1",
+    "description": "<%= description %>",
+    "keywords": [
+        "Typescript"
+    ],
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "author": "<%= gitUser %>",
+    "contributors": [
+        "<%= authorName %> <<%= authorUsername %>>"
+    ],
+    "homepage": "https://github.com/<%= gitUser %>/<%= moduleName %>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/<%= gitUser %>/<%= moduleName %>.git"
+    },
+    "bugs": {
+        "url": "https://github.com/<%= gitUser %>/<%= moduleName %>/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "tsc -w",
+        "start": "tsc",
+        "prepublishOnly": "tsc",
+        "postpublish": "git push && git push --tags",
+        "prepack": "tsc",
+        "postpack": "rm *.d.ts && rm *.js"
+    },
+    "devDependencies": {
+        "typescript": "^3.1.6"
+    }
+}
