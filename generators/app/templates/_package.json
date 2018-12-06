@@ -5,8 +5,7 @@
     "keywords": [
         "Typescript"
     ],
-    "main": "index.js",
-    "typings": "index.d.ts",
+    "license": "ISC",
     "author": "<%= gitUser %>",
     "contributors": [
         "<%= authorName %> <<%= authorUsername %>>"
